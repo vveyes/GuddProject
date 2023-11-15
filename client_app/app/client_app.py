@@ -49,7 +49,6 @@ if __name__ == "__main__":
         # Запрос и удаление 10 записей
         retrieve_and_delete_records(API_URL, 10)
 
-        # Печать статистики
         print("\n--- Статистика ---")
         print(f"Время: {time.strftime('%H:%M:%S')}")
         time.sleep(10)  # Пауза 10 секунд перед следующей итерацией

@@ -3,7 +3,7 @@ FROM python
 
 WORKDIR /app
 
-COPY client_app/requirements.txt /app/client_app/
+COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
